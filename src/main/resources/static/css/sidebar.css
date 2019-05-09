@@ -1,0 +1,7 @@
+html[dir='ltr']
+#outerContainer .sidebarOpen > #sidebarContainer {
+    left: 0;
+}
+#outerContainer .sidebarOpen > #sidebarContainer {
+    visibility: visible;
+}

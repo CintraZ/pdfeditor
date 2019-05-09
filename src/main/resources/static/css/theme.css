@@ -1,0 +1,129 @@
+body.default-theme {
+    background: #EEEEEE none;
+    font-size: 18px;
+    line-height: 1.5;
+}
+body.default-theme #sidebarContent #outlineView .outlineItem > a{
+    color: #354052;
+}
+
+#toolbarViewer, #findbar, #secondaryToolbar, #toolbarSidebar {
+    background: #354052 none;
+}
+
+body.default-theme .annotation-toolbar {
+    background: #354052;
+    box-shadow: 4px 0 5px -2px white;
+}
+body.default-theme .annotation-toolbar .divider {
+    border-bottom: 1px solid gray;
+}
+body.default-theme .annotation-toolbar .tools-group .tool-icon {
+    color: white;
+}
+body.default-theme .annotation-toolbar .tools-group .tool-label {
+    color: white;
+}
+
+body.default-theme .annotation-toolbar .expanded {
+    background: #354052;
+    color: #EEEEEE;
+}
+body.default-theme .annotation-toolbar .expanded .color {
+    background: #A6B7D0;
+}
+body.default-theme .annotation-toolbar .expanded .color .recent-colors {
+    border-color: #EEEEEE;
+}
+body.default-theme .annotation-toolbar .expanded .color .color-palette {
+    background-color: #A6B7D0;
+}
+body.default-theme .annotation-toolbar .expanded .color .color-palette .square-peg-in-round-hole {
+    background: -webkit-radial-gradient(100% 100%, circle, transparent 70%, #A6B7D0 10%);
+}
+
+body.default-theme .commentBody.spotlight,
+body.default-theme .commentBody.new,
+body.default-theme .commentBody:hover {
+    background-color: white;
+    border: none;
+}
+
+body.default-theme .commentBody {
+    color: #333;
+    background: white;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-left: 10px;
+}
+
+/*body.default-theme .annotation-toolbar .tools-group {*/
+    /*border-bottom: 1px solid #EEEEEE;*/
+/*}*/
+
+
+/*select theme*/
+body.default-theme .annotation-toolbar .tools-group .tool-item.selected,
+body.default-theme .annotation-toolbar .tools-group .tool-item .selected
+{
+    background: #FF009c;
+}
+body.default-theme .annotation-toolbar .expanded .color .color-dot.selected {
+    -webkit-box-shadow: 0 0 0 2pt aqua;
+    -moz-box-shadow: 0 0 0 2pt aqua;
+    box-shadow: 0 0 0 2pt aqua;
+}
+
+/*hover theme*/
+body.default-theme .annotation-toolbar .tools-group .tool-item:not(.selected):hover .tool-icon {
+    color: aqua;
+}
+body.default-theme .annotation-toolbar .tools-group .tool-item:not(.selected):hover .tool-label {
+    color: aqua;
+}
+body.default-theme .annotation-toolbar .expanded .color .color-dot:hover {
+    -webkit-box-shadow: 0 0 0 1pt aqua;
+    -moz-box-shadow: 0 0 0 1pt aqua;
+    box-shadow: 0 0 0 1pt aqua;
+}
+body.default-theme .annotation-toolbar .expanded .color .more-colors-container:hover{
+    color: aqua;
+}
+body.default-theme .annotation-toolbar .expanded .shapeType > div:not(.selected):hover {
+    color: aqua;
+}
+body.default-theme .notableAnnotationLayer .highlight-wrapper.spotlight .comment-highlighted {
+    background-color: #297fb8 !important;
+}
+body.default-theme .commentBody:not(.dim-comment) .actual-comment:hover .destroy, body.light-theme .commentBody:not(.dim-comment) .reply:hover .destroy {
+    color: #777 !important;
+}
+
+body.default-theme .commentBody .actual-comment, body.default-theme .commentBody .reply, body.default-theme .commentBody .replies .more {
+    border-bottom: 1px solid #ddd;
+}
+body.default-theme .commentBody .destroy {
+    display: block !important;
+    color: #eee !important;
+}
+body.default-theme .commentBody.dim-comment {
+    box-shadow: none;
+}
+
+body.default-theme #tooltip {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+body.default-theme #tooltip .mdi:hover {
+    color: aqua;
+}
+
+body.default-theme .downloadToolbar {
+    background: white none;
+    color: #333;
+}
+body.default-theme .doorHanger, body.light-theme .doorHangerRight {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

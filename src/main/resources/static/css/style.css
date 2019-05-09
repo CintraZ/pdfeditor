@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ytqx0n');
+  src:  url('../fonts/icomoon.eot?ytqx0n#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ytqx0n') format('truetype'),
+    url('../fonts/icomoon.woff?ytqx0n') format('woff'),
+    url('../fonts/icomoon.svg?ytqx0n#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-caret-down:before {
+  content: "\f0d7";
+}
+.icomoon-eraser:before {
+  content: "\e908";
+}
+.icomoon-selecttext:before {
+  content: "\e900";
+}
+.icomoon-shape-line:before {
+  font-size: 24px;
+  content: "\e905";
+}
+.icomoon-signature:before {
+  content: "\e909";
+}
+.icomoon-drawing:before {
+  content: "\e901";
+}
+.icomoon-textbox:before {
+  content: "\e902";
+}
+.icomoon-watermark:before {
+  content: "\e90a";
+}
+.icomoon-palette:before {
+  content: "\e903";
+}
+.icomoon-boxhighlight:before {
+  content: "\e904";
+}
+.icomoon-highlight:before {
+  content: "\e907";
+}
+.icomoon-comment:before {
+  content: "\e96e";
+}
+.icomoon-shapes:before {
+  content: "\ea4e";
+}
+.icomoon-shape-rectangle:before {
+  font-size: 24px;
+  content: "\ea53";
+}
+.icomoon-shape-circle:before {
+  font-size: 24px;
+  content: "\ea56";
+}
+.icomoon-underline:before {
+  content: "\ea63";
+}
+.icomoon-strikethrough:before {
+  content: "\ea65";
+}
+.icomoon-texthighlight:before {
+  content: "\ea6d";
+}
+.icomoon-eraser-all:before {
+  content: "\eacd";
+}
